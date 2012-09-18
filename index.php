@@ -20,11 +20,12 @@
 	});
 	</script>
 	<style type="text/css" media="screen">
-		*{}
+		*{margin:0;padding:0;}
 		ul{margin:0;padding:0;list-style:disc;}
 		#main{margin:0 auto;width:980px;line-height:25px;}
-		#item{margin:20px auto 0 auto;width:100%;height:100px;border-top:1px dashed #989898;padding:5px;font-size:12px;}
-		#footer{font-size:12px;width:100%;height:50px;text-align:center;}
+                #title{border-bottom:1px dashed #989898;padding:8px;}
+		#item{margin:20px auto 0 auto;width:100%;height:100px;border-bottom:1px dashed #989898;padding:5px;font-size:12px;}
+		#footer{font-size:12px;width:980px;margin:0 auto;height:50px;text-align:center;padding-top:10px;}
 		.detail{margin-left:20px;display:block;float:left;width:500px;height:80px;}
 		.pic{width:66px;height:98px;display:block;float:left;}
 		.num{display: block;float: left;width: 50px;height:80px;}
@@ -34,7 +35,6 @@
 <body>
 	<div id="main">
 		<div id='title'><h1>豆瓣电影排行</h1></div>
-		<!-- <div id='footer'>2012(c)<a href='www.sudobeta.com' target="_blank">welsonla</a></div> -->
 	</div>
-</body>
+        <div id='footer'>2012(c)Welsonla</div> </body>
 </html>
